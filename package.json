@@ -1,0 +1,23 @@
+{
+  "name": "leave-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Leave & Attendance Management System - Full Stack Application",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "leave",
+    "attendance",
+    "management",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
