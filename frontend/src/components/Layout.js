@@ -57,12 +57,12 @@ const Layout = () => {
 
   const menuItems = [
     { text: 'Dashboard', icon: <DashboardIcon />, path: '/', show: true },
-    { text: 'My Leaves', icon: <EventIcon />, path: '/leaves', show: true },
+    { text: 'All Requests', icon: <EventIcon />, path: '/leaves', show: true },
     { text: 'Apply Leave', icon: <EventIcon />, path: '/apply-leave', show: isManager || isEmployee },
     { text: 'Calendar', icon: <CalendarTodayIcon />, path: '/calendar', show: true },
     { text: 'Holidays', icon: <HolidayVillageIcon />, path: '/holidays', show: true },
     { text: 'Reports', icon: <AssessmentIcon />, path: '/reports', show: isAdmin || isManager },
-    { text: 'Users', icon: <PeopleIcon />, path: '/users', show: isAdmin },
+    { text: 'People', icon: <PeopleIcon />, path: '/users', show: isAdmin },
   ].filter(item => item.show);
 
   const drawer = (

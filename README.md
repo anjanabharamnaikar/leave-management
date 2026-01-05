@@ -368,7 +368,7 @@ The test suite includes:
 │   ├── models/          # MongoDB models (User, Leave, Holiday)
 │   ├── routes/          # API routes
 │   ├── middleware/      # Authentication middleware
-│   ├── scripts/         # Seed script
+│   ├── scripts/         # Seed script(important)
 │   ├── tests/           # Unit tests
 │   ├── server.js        # Express server
 │   └── package.json
